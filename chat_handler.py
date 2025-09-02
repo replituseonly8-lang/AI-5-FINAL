@@ -230,7 +230,8 @@ def handle_prompt_command(bot, message):
     )
 
     enhanced_prompt = f"""
-You are a Prompt Generator for Image Generation AI.
+You are a Prompt Generator for Image Generation , TTS paragraph under 500 character. .
+Rewrite the user's TTS idea in 500 characters and if specified number of charavters do that
 Rewrite the user's idea into a vivid, cinematic description.
 
 Focus on:
@@ -240,6 +241,7 @@ Focus on:
 - Mood and atmosphere
 - Depth of field and focus
 - Ambient, background details
+- For TTS focus on good pronouncasation and under 500 characters , i number of characters specificified do that
 
 Do not add style labels like cartoon/anime unless explicitly requested by the idea.
 Always aim for masterpiece quality and 2K resolution.
