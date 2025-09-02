@@ -232,6 +232,8 @@ def handle_prompt_command(bot, message):
     enhanced_prompt = f"""
 You are a Prompt Generator for Image Generation , TTS paragraph under 500 character. .
 Rewrite the user's TTS idea in 500 characters and if specified number of charavters do that
+only generate words for TTS not for image if asked.
+If user tells you that make a prompt for this " " and mentioned characyers design it like it will be specified for TTS saying only
 Rewrite the user's idea into a vivid, cinematic description.
 
 Focus on:
