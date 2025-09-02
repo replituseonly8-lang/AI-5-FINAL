@@ -51,7 +51,7 @@ TTS_MODEL = "gpt-4o-mini-tts"
 # ==============================================
 # 🔗 DEVELOPER & COMMUNITY LINKS
 # ==============================================
-DEVELOPER_URL = "https://t.me/Rystrix"
+DEVELOPER_URL = "https://t.me/Rystrix_XD"
 Community_URL = "https://t.me/BrahMosAI"
 
 # ==============================================
